@@ -19,7 +19,7 @@
 LOCAL_PATH := device/samsung/n5100
 
 # Inline kernel building
-TARGET_KERNEL_CONFIG := lineageos_n5100_defconfig
+TARGET_KERNEL_CONFIG := twrp_n51xx_defconfig
 BOARD_RIL_CLASS := ../../../device/samsung/n5100/ril
 BOARD_GLOBAL_CFLAGS += -DDISABLE_ASHMEM_TRACKING
 
